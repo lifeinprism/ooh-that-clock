@@ -40,3 +40,19 @@ h1 {
 	color: #62ed50;
 }
 
+#clock-holder {
+	height: 70%;
+	width: 100%;
+}
+#clock-display {
+	height: 85%;
+	width: 100%;
+	text-align: center;
+	display: table;
+	color: #62ed50;
+	font-size: 150px;
+	position: relative;
+	top: 35%;
+	font-family: Jura;
+}
+
