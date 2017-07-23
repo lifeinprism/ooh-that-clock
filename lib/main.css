@@ -1,0 +1,42 @@
+body, html {
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+#titleBlock {
+  height: 10%;
+	width: 100%;
+	text-align: center;
+	display: table; 
+	background-color: #4b5272;
+}
+
+#nav-links {
+	width: 750px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: Rajdhani;
+	color: #ffffff;
+	font-size: 60px;
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: -5px;
+}
+
+.floating-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  text-align: center;
+  font-family: Rajdhani;
+  font-size: 33px;
+}
+
+.floating-box a {
+	text-decoration: none;
+	color: #62ed50;
+}
+
