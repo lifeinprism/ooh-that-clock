@@ -7,8 +7,9 @@ window.onload = function() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
+    ampm = getAmPm(h)
     h = twelveHourTime(h);
-    document.getElementById('clock-display').innerHTML = h + ":" + m + ":" + s;
+    document.getElementById('clock-display').innerHTML = h + ":" + m + ":" + s + ' ' + ampm;
     var t = setTimeout(startTime, 500);
   }
 
@@ -24,6 +25,14 @@ window.onload = function() {
       x = x - 12;
     }
     return x;
+  }
+
+  var getAmPm = (x) => {
+    if (x >= 12) {
+      return 'PM';
+    } else {
+      return 'AM';
+    }
   }
 
   startTime();
